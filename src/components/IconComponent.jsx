@@ -3,23 +3,9 @@ import ScrollTrigger from 'react-scroll-trigger'
 
 function IconComponent(props) {
 
-  const techRef = useRef(null)
-
-  const addTechAnimation = () => {
-    if (techRef.current) {
-      techRef.current.classList.add('tech-animation');
-    }
-  };
-  
-  const removeTechAnimation = ()=>{
-    if(techRef.current){
-      techRef.current.classList.remove("tech-animation");
-    }
-  }
   const { tech } = props
   return (
-    <ScrollTrigger  onEnter={addTechAnimation} onExit={removeTechAnimation} className='tech-section'>
-      <div ref={techRef} className=" tch-container  d-flex justify-content-around flex-wrap cls_relative ">
+      <section className=" tch-container  d-flex justify-content-around flex-wrap cls_relative ">
         <br /> 
       {tech.map(tech => (
           
@@ -34,8 +20,7 @@ function IconComponent(props) {
           
         
       
-      </div>
-      </ScrollTrigger>
+      </section>
 
     
   )

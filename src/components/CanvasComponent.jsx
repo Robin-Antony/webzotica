@@ -3,7 +3,7 @@ import CounterComponent from './CounterComponent'
 
 function CanvasComponent() {
   return (
-    <section className='container mb-5 '>
+    <section className='container mb-5'>
         <div className='canvas-container'>
             <div className=' h-75 w-100 d-flex flex-wrap'>
                 <div className='w-50 h-100 bg-canvasone p-5 text-white'>
