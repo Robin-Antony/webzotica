@@ -1,11 +1,10 @@
 import React, {useRef} from 'react'
 import ScrollTrigger from 'react-scroll-trigger';
 
-function FlexReverseComponent({heading,paragraph,bgsvg,bgimg,bgcontain}) {
+function FlexReverseComponent({heading,paragraph,bgimg}) {
 
   return (
-    <section className='hero-bg-svg' style={{ backgroundImage: `url(${bgsvg})` }}>
-      <div className=' d-flex w-100   flexReverseComponent-contain-bg' style={{ backgroundImage: `url(${bgcontain})` }}>
+      <div className=' d-flex w-100 hero-bg-svg heroR '>
           <div  className='d-flex justify-content-center align-items-center hero-img-container'>
             
               <div className=" hero-bg-img" style={{ backgroundImage: `url(${bgimg})` }}>
@@ -22,7 +21,6 @@ function FlexReverseComponent({heading,paragraph,bgsvg,bgimg,bgcontain}) {
           </div>
     
       </div>
-      </section>
   )
 }
 

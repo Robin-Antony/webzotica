@@ -1,9 +1,3 @@
-html{
-  scroll-snap-type: y mandatory;
-}
-section{
-  scroll-snap-align: start;
-}
  /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 300 to 800 */
 h1 {
@@ -23,14 +17,13 @@ p {
   font-variation-settings:
     "wdth" 100;
 }
-body {
+
+/* theme configuration start */
+body{
   font-size: calc(14px + 0.390625vw);
   font-family: monospace;
   font-family: "Nunito Sans", sans-serif;
-}
-/* theme configuration start */
-body{
-  background-color: #7EC8E3;
+  /* background-color: #7EC8E3; */
   box-sizing: border-box;
 }
 .underline1{
@@ -46,11 +39,7 @@ body{
 .bg1-img{
   background-image: url("./assets/team.jpg");
 }
-.card{
-  background-color: #7EC8E3;
-  border: none;
-  /* border: 0px solid #05445E; */
-}
+
 .canvas-absolute{
   border: 15px solid #D4F1F4;
 }
@@ -61,7 +50,7 @@ body{
   background-color: #75E6DA;
 }
 .tch-container{
-  background-color: #05445E;
+  /* background-color: #05445E; */
   color: white;
 }
 /* theme configuration end */
@@ -108,10 +97,18 @@ body{
   background-position: left;
 }
 .flexReverseComponent-contain-bg,.flexComponent-contain-bg{
+  
+  /* margin-top: 100px; */
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 100vh;
  }
+.heroR{
+  background-image: url("./assets/waved.svg");
+}
+.heroS{
+  background-image: url("./assets/wavec.svg");
+}
 .hero-bg-svg{
   min-height: 100vh;
   height: fit-content;
@@ -157,12 +154,11 @@ body{
 /* hero component end  */
 .card{
   width: 350px;
+  box-shadow: rgba(17, 35, 177, 0.2) 0px 2px 8px 0px;
 }
 .flex-card-container{
-  min-height: 100vh;
-  background-image: url("./assets/wavec.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./assets/wavee.svg");
+
 }
 /* flex card component end */
 /* flex image card start  */
@@ -276,7 +272,7 @@ footer{
     left: 5%;
   }
   .counter-h1{
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
 }
 @media screen and (max-width: 700px) {
@@ -313,7 +309,7 @@ footer{
     min-height: 250px;
   }
   .canvas-absolute{
-    max-height: 250px;
+    min-height: 270px;
     top: 400px;
   }
   .fic{

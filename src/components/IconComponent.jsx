@@ -5,7 +5,7 @@ function IconComponent(props) {
 
   const { tech } = props
   return (
-      <section className=" tch-container  d-flex justify-content-around flex-wrap cls_relative ">
+      <section className=" tch-container container  d-flex justify-content-around flex-wrap cls_relative ">
         <br /> 
       {tech.map(tech => (
           

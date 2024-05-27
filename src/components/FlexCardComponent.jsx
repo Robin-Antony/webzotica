@@ -1,17 +1,13 @@
 
 import imag from '../assets/animImg1.png'
 import ReadMore from './ReadMore'
-// import React, { useRef, useEffect } from 'react';
-
-// import ScrollTrigger from 'react-scroll-trigger';
-
 
 function FlexCardComponent() {
 
 
     const content1 = "Some quick example text to build on the card title and make up the bulk of the card's content. on the card title and make up the bulk of the card's content."
   return (
-    <section className='flex-card-container'>
+    <section className='flex-card-container hero-bg-svg'>
     <div className='container d-flex justify-content-around flex-wrap w-100 '>
         
         

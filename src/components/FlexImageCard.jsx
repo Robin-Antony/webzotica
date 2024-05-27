@@ -4,8 +4,8 @@ import ReadMore from './ReadMore'
 function FlexImageCard() {
     
   return (
-    
-    <section className="d-flex flex-wrap m-5 justify-content-center align-items-center">
+    <div className='hero-bg-svg heroR'>
+    <section className="d-flex flex-wrap justify-content-center align-items-center ">
         <div className="card m-5 d-flex justify-content-center align-item-center fic ">
             <div className="flex-img-w">
                 
@@ -97,6 +97,7 @@ function FlexImageCard() {
         </div>
         
     </section>
+    </div>
       
   )
 }

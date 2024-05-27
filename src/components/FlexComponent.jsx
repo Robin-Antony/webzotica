@@ -1,12 +1,10 @@
 import React,{useRef} from 'react'
-import ScrollTrigger from 'react-scroll-trigger';
 
 
-function FlexComponent({heading,paragraph,bgsvg,bgimg,bgcontain}) {
+function FlexComponent({heading,paragraph,bgimg}) {
  
   return (
-    <section className='  hero-bg-svg ' style={{ backgroundImage: `url(${bgsvg})` }} >
-    <div className=' d-flex w-100 flexComponent-contain-bg' style={{ backgroundImage: `url(${bgcontain})` }}>
+    <div className=' d-flex w-100 hero-bg-svg heroS' >
         <div className="d-flex justify-content-center align-items-center hero-content-container">
             <div className='w-75 hero-content'>
                 <h1>{heading}</h1>
@@ -20,7 +18,6 @@ function FlexComponent({heading,paragraph,bgsvg,bgimg,bgcontain}) {
         </div>
   
     </div>
-    </section>
   )
 }
 
