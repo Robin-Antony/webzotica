@@ -1,0 +1,415 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+section{
+  scroll-snap-align: start;
+}
+ /* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 800 */
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  font-size: calc(14px + 0.390625vw);
+  font-family: monospace;
+   font-family: "Nunito Sans", sans-serif;
+}
+/* theme configuration start */
+body{
+  background-color: #7EC8E3;
+  /* background-color: #90b6c5; */
+}
+.underline1{
+  background-color: #05445E;
+}
+.btn{
+  border: 2px solid #05445E;
+  color: #05445E;
+
+}
+.bg1-svg{
+  background-image: url("./assets/wave3.svg");
+}
+.bg1-img{
+  background-image: url("./assets/team.jpg");
+}
+
+.card{
+  background-color: #D4F1F4;
+}
+
+.canvas-absolute{
+  border: 15px solid #D4F1F4;
+}
+.bg-canvasone{
+  background-color: #05445E;
+}
+.bg-canvastwo{
+  background-color: #75E6DA;
+}
+.tch-container{
+  background-color: #05445E;
+  color: white;
+}
+/* theme configuration end */
+h1 {
+  font-size: 2.4rem;
+  font-family: "DM Sans", sans-serif;
+ 
+  color: #050A30;
+}
+h2 {
+  font-size: 1.8rem;
+  font-family: "DM Sans", sans-serif;
+}
+h3 {
+  font-size: 1.7rem;
+  font-family: "DM Sans", sans-serif;
+}
+h4 {
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+}
+/* font styling end  */
+
+.navbar-container{
+  max-width: fit-content;  
+}
+
+/* nav bar styling  */
+
+.embla {
+  overflow: hidden;
+} 
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+/* hero component start  */
+.flexComponent-contain-bg{
+  background-size: contain;
+  background-repeat: no-repeat;
+ background-position: right;
+}
+.flexReverseComponent-contain-bg{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  /* min-height: 200px; */
+ }
+
+
+.hero-bg-svg{
+  min-height: 100vh;
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes svgScaleAnimation {
+  0%   {
+    min-height: 200px;
+  }
+
+  100% {
+    min-height: 100vh;
+  }
+}
+.svg-scale-animation{
+  animation-name: svgScaleAnimation;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+.hero-content-container{
+  padding: 10px;
+  width: 50%;
+}
+.hero-content{
+    height: fit-content;
+}
+.underline1{
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+}
+.btn{
+  font-size: 20px;
+}
+.btn:hover{
+  scale: 1.05;
+}
+.hero-img-container{
+  width: 50%;
+  min-height: 100%;
+}
+
+
+.hero-bg-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  width: 80%;
+  margin-bottom: 5px;
+  margin-left: -500px;
+}
+@keyframes bgImgAnimation {
+  0%   {
+    margin-left: -500px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+.hero-img-animation{
+  margin-left: 0px;
+  animation-name: bgImgAnimation;
+  animation-delay: .1s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+.bg1-svg{
+  background-image: url("./assets/wave3.svg");
+}
+.bg1-img{
+  background-image: url("./assets/team.jpg");
+}
+
+/* hero component end  */
+/* The animation code */
+@keyframes cardAnimation {
+  0%   {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+.card{
+  width: 400px;
+
+}
+.card-animation{
+  animation-name: cardAnimation;
+  width: 350px;
+  animation-delay: .1s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+/* flex card component end */
+/* flex image card start  */
+
+.fic{
+  max-width: 500px;
+  min-width: 500px;
+  flex-direction: row;
+  height: fit-content;
+}
+.flex-img-w{
+  max-width: 40%;
+}
+.flex-content-w{
+  width: 60%;
+
+}
+.flex-img-w img{
+  width: 100%;
+}
+.flex-content-w>div{
+  height: 100%;
+}
+
+
+/* flex image card end  */
+
+/* icon component start  */
+.tech-section{
+  min-height: 100vh;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.tch-container{
+  padding: 50px;
+  height: fit-content;
+  overflow: hidden;
+
+}
+@keyframes techAnimation {
+  0%   {
+    /* margin-left: -500px; */
+  }
+
+  100% {
+    /* width: 100%; */
+    /* margin-left: 0px; */
+  }
+}
+/* .tech-animation{
+  animation-name: techAnimation;
+  animation-delay: .5s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+} */
+.icon-container{
+  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.icon-container img{
+  max-width: 60px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+/* icon component end  */
+.canvas-container{
+  height: 100vh;
+  padding-top: 100px;
+  position: relative;
+}
+
+.canvas-absolute{
+  width: 75%;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  left: 12.5%;
+  /* border: 15px solid #D4F1F4; */
+}
+.bg-canvasone{
+  /* background-color: #05445E; */
+}
+.bg-canvastwo{
+  /* background-color: #75E6DA; */
+}
+.counter-h1{
+  font-size: 4.8rem;
+}
+footer{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .hero-bg-svg{
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .flexReverseComponent-contain-bg{
+    width: 100%;
+    min-height: 500px;
+    /* background-color: orange; */
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .flexComponent-contain-bg{
+    width: 100%;
+    min-height: 500px;
+    /* background-color: orange; */
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hero-content-container{
+    padding: 10px;
+    width: 100%;
+  }
+  .hero-content{
+    width: 100%;
+    min-height: 50%;
+  }
+  .hero-img-container{
+    min-width: 100%;
+    
+  }
+  .hero-bg-img{
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2.2rem;
+    font-family: "DM Sans", sans-serif;
+  }
+  .btn{
+    font-size: 15px;
+  }
+  
+  .fic{
+    max-width:99%;
+    min-width: 99%;
+  }
+  .navbar-container{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    padding: 0px;
+    height: 0px;
+    min-width: 100%;
+  }
+  .navbar-container ul{
+    min-width: 100%;
+    padding: 40px;
+    background-color: black;
+    opacity: .9;
+    z-index: 2;
+  }
+
+
+
+
+  /* navbar style end  */
+
+
+  .canvas-container{
+    height: 100vh;
+    
+    position: relative;
+  }
+  .canvas-absolute{
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    /* border: 15px solid white; */
+  }
+  /* .bg-canvasone{
+    background-color: gray;
+  }
+  .bg-canvastwo{
+    background-color: rgb(43, 76, 43);
+  } */
+  .counter-h1{
+    font-size: 2.8rem;
+  }
+
+}
