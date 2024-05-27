@@ -241,8 +241,8 @@ footer{
     font-size: 15px;
   }
   .fic{
-    max-width:99%;
-    min-width: 99%;
+    max-width:70%;
+    min-width: 70%;
   }
   .navbar-container{
     position: absolute;
@@ -282,18 +282,13 @@ footer{
     flex-direction: column;
     justify-content: space-around;
   }
-  .flexReverseComponent-contain-bg{
-    width: 100%;
-    min-height: 500px;
+  .heroR{
     flex-direction: column-reverse;
-    justify-content: space-around;
   }
-  .flexComponent-contain-bg{
-    width: 100%;
-    min-height: 500px;
+  .heroS{
     flex-direction: column;
-    justify-content: space-around;
   }
+
   .hero-content-container{
     padding: 10px;
     width: 100%;
