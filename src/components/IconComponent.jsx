@@ -14,7 +14,7 @@ function IconComponent(props) {
                   
                   <img className='w-100 text-center' src={tech.image} alt="" />
               </div>
-              <h4 className='text-center'>{tech.name}</h4>
+              <h5 className='text-center'>{tech.name}</h5>
           </div>
       ))}
           

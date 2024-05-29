@@ -51,7 +51,7 @@ body{
 }
 .tch-container{
   /* background-color: #05445E; */
-  color: white;
+  /* color: white; */
 }
 /* theme configuration end */
 h1 {
@@ -138,8 +138,9 @@ body{
   min-height: 100%;
 }
 .hero-bg-img{
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 400px;
   width: 80%;
   margin-bottom: 5px;

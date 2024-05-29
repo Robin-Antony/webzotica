@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import backgroundsvg from '../assets/wave3.svg'
-import backgroundimg1 from '../assets/solutions.jpg'
-import backgroundimg2 from '../assets/team.jpg'
+import backgroundimg1 from '../assets/handshake-t.png'
+import backgroundimg2 from '../assets/design-t.png'
+import backgroundimg3 from '../assets/lowcost.png'
 import HeroComponent from './HeroComponent' 
 
 
@@ -23,13 +23,13 @@ export function EmblaCarousel() {
     <section className="embla bg1-svg hero-bg-svg" ref={emblaRef}>
       <div className="embla__container ">
         <div className="embla__slide">
-          <HeroComponent heading={"The Design Thinking Super Powers"} paragraph={paragraph2}  bgimg={backgroundimg1}/>
+          <HeroComponent heading={"The Design Thinking Super Powers"} paragraph={paragraph2}  bgimg={backgroundimg2}/>
         </div>
         <div className="embla__slide">
-          <HeroComponent heading={"Easily Build Your Next Website With Us"} paragraph={paragraph}  bgimg={backgroundimg2}/>
+          <HeroComponent heading={"Easily Build Your Next Website With Us"} paragraph={paragraph}  bgimg={backgroundimg1}/>
         </div>
         <div className="embla__slide">
-          <HeroComponent heading={"Affordable Web Solutions Beyond Expectations"} paragraph={paragraph1}  bgimg={backgroundimg1}/>
+          <HeroComponent heading={"Affordable Web Solutions Beyond Expectations"} paragraph={paragraph1}  bgimg={backgroundimg3}/>
         </div>
       </div>
     </section>
