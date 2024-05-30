@@ -1,22 +1,23 @@
 import HomePage from './pages/HomePage'
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Layout from './components/Layout';
 import AboutPage from './pages/AboutPage';
+import AppRoute from './pages/AppRoute';
 
 function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Routes>
-        <Route path="/webzotica" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<HomePage/>}></Route>
           <Route path='about' element={<AboutPage/>}></Route>
           
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }

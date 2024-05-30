@@ -55,7 +55,7 @@ function HeaderComponent() {
                         <a className="nav-link  " href={'/webzotica/'}>Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/webzotica/about'}>About Us</a>
+                        <a className="nav-link  " href={'/webzotica/#about'}>About Us</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link  " href={'/x-app/service'}>Services</a>
