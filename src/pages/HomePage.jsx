@@ -18,6 +18,7 @@ import FooterComponent from '../components/FooterComponent'
 import CanvasComponent from '../components/CanvasComponent'
 import IconComponent from '../components/IconComponent'
 import HeadingComponent from '../components/HeadingComponent'
+import CentreComponent from '../components/CentreComponent'
 
 function HomePage() {
     const heading1 = "Join hands with Webzotica to unlock new possibilities for your business. Let's navigate the digital landscape together, turning challenges into opportunities."
@@ -25,21 +26,16 @@ function HomePage() {
     const paragraph2 = 'With a journey spanning over a decade, we’ve witnessed the evolution of technology firsthand. From web development to cloud services, cybersecurity to data analytics, we’ve adapted and thrived in this dynamic landscape. Our team of skilled professionals brings passion, creativity, and technical prowess to every project'
     return (
     <div>
-      <HeaderComponent/>
       <EmblaCarousel/>
-      
+      <CentreComponent/>
       <FlexReverseComponent heading={"Our Expertise in Engineering and Technology"} paragraph={paragraph1} bgsvg={svgd}  bgimg={backgroundimg}/>
       <FlexComponent heading={"Our Journey"} paragraph={paragraph2}   bgimg={backgroundimg1}/>
       <FlexCardComponent/>
-      {/* <FlexCardComponent/> */}
-      <HeadingComponent heading={"technologies We use"}/>
+      <HeadingComponent heading={"Technologies We use"}/>
       <IconComponent tech={tech}/>
       <FlexComponent heading={heading1}   bgimg={shakinghand}/>
-      
-  
       <FlexImageCard/>
       <CanvasComponent/>
-      <FooterComponent/>
     </div>
   )
 }

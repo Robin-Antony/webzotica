@@ -11,7 +11,7 @@ function FlexImageCard() {
     
   return (
     <div className='hero-bg-svg heroR'>
-            <HeadingComponent heading={"Why us"}/>
+            <HeadingComponent heading={"Why us?"}/>
     <section className="d-flex flex-wrap justify-content-center align-items-center ">
         <div className="card m-5 d-flex justify-content-center align-item-center fic ">
             <div className="flex-img-w">

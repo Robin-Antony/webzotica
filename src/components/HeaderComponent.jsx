@@ -1,9 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function HeaderComponent() {
-    const [toggler, setToggler] = useState(true)
+
+    const [toggler, setToggler] = useState(window.innerWidth > 1000)
+ 
 
 
     function togglerHandler(){
@@ -50,10 +52,10 @@ function HeaderComponent() {
                         </li>
                         
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/x-app/'}>Home</a>
+                        <a className="nav-link  " href={'/webzotica/'}>Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/x-app/about'}>About Us</a>
+                        <a className="nav-link  " href={'/webzotica/about'}>About Us</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link  " href={'/x-app/service'}>Services</a>
