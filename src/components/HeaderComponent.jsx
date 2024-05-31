@@ -52,7 +52,7 @@ function HeaderComponent() {
                         </li>
                         
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/webzotica/'}>Home</a>
+                        <a className="nav-link  " href={'/'}>Home</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link  " href={'/webzotica/#about'}>About Us</a>

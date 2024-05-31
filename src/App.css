@@ -46,12 +46,12 @@ body{
 }
 .bg-canvasone{
   background-color: #05445E;
-  background-image: url("./assets/bluebg.jpg");
+  /* background-image: url("./assets/bluebg.jpg"); */
   background-size: cover;
 }
 .bg-canvastwo{
   background-color: #75E6DA;
-  background-image: url("./assets/bluebg1.jpg");
+  /* background-image: url("./assets/bluebg1.jpg"); */
   background-size: cover;
 }
 /* .tch-container{
@@ -264,6 +264,22 @@ body{
   z-index: 2;
   color: white;
 
+}
+.about-background{
+  /* background-color: #75E6DA; */
+}
+.about-profile-img{
+  /* background-color: aliceblue; */
+  width: 20%;
+  border-radius: 5px;
+}
+.about-profile-img img{
+  border-radius: 5px;
+}
+
+.about-profile-content{
+  width: 70%;
+  /* background-color: #05445E; */
 }
 
 
