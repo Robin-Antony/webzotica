@@ -10,7 +10,7 @@ import HeadingComponent from './HeadingComponent'
 function FlexImageCard() {
     
   return (
-    <div className='hero-bg-svg heroR'>
+    <div className='h-full'>
             <HeadingComponent heading={"Why us?"}/>
     <section className="d-flex flex-wrap justify-content-center align-items-center ">
         <div className="card m-5 d-flex justify-content-center align-item-center fic ">

@@ -119,6 +119,9 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.bg-container{
+  min-height: 100vh;
+}
 .hero-content-container{
   padding: 10px;
   width: 50%;
@@ -162,7 +165,7 @@ body{
   box-shadow: rgba(17, 35, 177, 0.2) 0px 2px 8px 0px;
 }
 .flex-card-container{
-  background-image: url("./assets/wavee.svg");
+  /* background-image: url("./assets/wavee.svg"); */
 
 }
 /* flex card component end */
@@ -197,7 +200,7 @@ body{
   padding: 50px;
   height: fit-content;
   overflow: hidden;
-  height: 100%;
+  /* min-height: 100%; */
 }
 .tech-section{
   background-image: url("assets/wavee.svg");
@@ -281,6 +284,18 @@ body{
   width: 70%;
   /* background-color: #05445E; */
 }
+.contact-form{
+  display: flex;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-d1{
+  width: 50%;
+  min-height: 500px;
+  /* border: 1px solid rgb(225, 221, 221); */
+}
+
 
 
 footer{
@@ -332,7 +347,7 @@ footer{
   }
 }
 @media screen and (max-width: 700px) {
-  .hero-bg-svg{
+  .bg-container{
     width: 100%;
     min-height: 100vh;
     flex-direction: column;
@@ -373,4 +388,20 @@ footer{
     max-height: 250px;
     top: 250px;
   }
+  .contact-form{
+    flex-direction: column-reverse;
+    justify-content: start;
+   
+  } 
+  .contact-d1{
+    width: 100%;
+    min-height: 500px;
+    /* border: 1px solid rgb(225, 221, 221); */
+  }
+  .contact-d1>div{
+    width: 90%;
+    min-height: 500px;
+    /* border: 1px solid rgb(225, 221, 221); */
+  }
+
 }

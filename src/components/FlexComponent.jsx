@@ -5,7 +5,7 @@ import MultuHeadComponent from '../subComponents/MultuHeadComponent'
 function FlexComponent({heading,paragraph,bgimg,items}) {
  
   return (
-    <div className=' d-flex w-100 hero-bg-svg heroS' >
+    <div className=' d-flex w-100 bg-container' >
         <div className="d-flex justify-content-center align-items-center hero-content-container">
             <div className='w-75 hero-content'>
               {items? (<MultuHeadComponent items={items}/>) :<>

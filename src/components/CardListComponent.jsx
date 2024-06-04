@@ -16,12 +16,11 @@ function CardListComponent() {
 
             <div className="about-profile-content">
                 <div className="d-flex h-100 w-75 m-auto  justify-content-center align-item-center flex-column">
-                    <h2 className="p-2">Robin Antony </h2>
-                    <p className="p-2">
-                        Orestes Technologies Pvt. Ltd. successfully Started to service global customers in the field of
-                        web design & development, Mobile App development ,Web Application,Software Development,branding.
-                        We aim to meet and exceed customer satisfaction in every way possible.
-                        We have built a team of exceptionally talented professionals for whom perfection is a habit.
+                    <h2 className="p-2">Robin</h2>
+                    <p className="p-2">Meet Robin, our seasoned senior developer.
+                     With over 6 years of experience, he bring expertise, creativity, and a passion
+                      for elegant code to every project. Whether it's crafting seamless user experiences or solving 
+                      complex challenges, he thrive on turning ideas into reality. 
                     </p>
                 </div>
             </div>
@@ -36,12 +35,13 @@ function CardListComponent() {
 
             <div className="about-profile-content">
                 <div className="d-flex h-100 w-75 m-auto  justify-content-center align-item-center flex-column">
-                    <h2 className="p-2">Sibin </h2>
-                    <p className="p-2">
-                        Orestes Technologies Pvt. Ltd. successfully Started to service global customers in the field of
-                        web design & development, Mobile App development ,Web Application,Software Development,branding.
-                        We aim to meet and exceed customer satisfaction in every way possible.
-                        We have built a team of exceptionally talented professionals for whom perfection is a habit.
+                    <h2 className="p-2">Prince </h2>
+                    <p className="p-2">Meet Prince, our seasoned UX/UI expert.
+                     With a keen eye for aesthetics and user-centric design, he bring creativity,
+                      empathy, and pixel-perfect precision to every project. Whether it's crafting intuitive
+                       interfaces or enhancing user experiences, Prince
+                        is passionate about making digital interactions delightful.
+                     Let's collaborate and create designs that resonate!
                     </p>
                 </div>
             </div>

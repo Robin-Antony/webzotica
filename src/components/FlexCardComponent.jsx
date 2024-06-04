@@ -15,7 +15,7 @@ function FlexCardComponent() {
     const mobDev ="We specialize in creating mobile apps that enhance user experiences. From intuitive interfaces to seamless performance, our mobile app development services cater to both Android and iOS platforms. Let us bring your app idea to life."
     const webDev = "Our team crafts custom web platforms tailored to your unique needs. Whether it’s building a corporate website, an e-commerce platform, or a web application, we've got you covered. Our expertise spans various industries, including finance, transportation, and construction1."
   return (
-    <section className='flex-card-container hero-bg-svg'>
+    <section className=''>
             <HeadingComponent heading={"Our Services"}/>
     <div className='container d-flex justify-content-around flex-wrap w-100 '>
         

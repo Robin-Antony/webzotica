@@ -1,11 +1,12 @@
 import React, {useRef} from 'react'
-import ScrollTrigger from 'react-scroll-trigger'
+import ContainerCompoentTop from './ContainerCompoentTop'
 
 function IconComponent(props) {
 
   const { tech } = props
   return (
-      <section className=" tch-container container  d-flex justify-content-around flex-wrap cls_relative ">
+    <div className=' heroS hero-bg-svg'>
+      <section className=" tch-container container  d-flex justify-content-center flex-wrap">
         <br /> 
       {tech.map(tech => (
           
@@ -21,7 +22,7 @@ function IconComponent(props) {
         
       
       </section>
-
+    </div>
     
   )
 }

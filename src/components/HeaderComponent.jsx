@@ -58,20 +58,20 @@ function HeaderComponent() {
                         <a className="nav-link  " href={'/webzotica/#about'}>About Us</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/x-app/service'}>Services</a>
+                        <a className="nav-link  " href={'/webzotica/#services'}>Services</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link  " href={'/x-app/contact'}>Contact Us</a>
+                        <a className="nav-link  " href={'/webzotica/#contact'}>Contact Us</a>
+                        </li>
+                        {/* <li className="nav-item">
+                        <a className="nav-link  " href="#">Projects</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link " href="#">Products</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link  " href="#">Careers</a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link  " href="#">Internship</a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link " href="#">Projects</a>
-                        </li>
+                        </li> */}
                     </ul>
                     </>
                     ):(<h1></h1>)}

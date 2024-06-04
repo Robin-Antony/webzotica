@@ -4,7 +4,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 function HeroComponent({heading,paragraph,bgsvg,bgimg}) {
   
   return (
-    <div className=' d-flex w-100  hero-bg-svg' style={{ backgroundImage: `url(${bgsvg})` }}>
+    <div className=' d-flex w-100  bg-container' style={{ backgroundImage: `url(${bgsvg})` }}>
         <div className="d-flex justify-content-center align-items-center hero-content-container">
             <div className='w-75 hero-content'>
                 <h1>{heading}</h1>
